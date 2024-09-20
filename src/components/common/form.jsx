@@ -82,7 +82,7 @@ function CommonForm({ formControls, formData, setFormData,onSubmit,buttonText })
       <div>
         {formControls.map((controlItem) => (
           <div className="grid gap-1.5 w-full" key={controlItem.name}>
-            <Label className="mb-1">{controlItem.label}</Label>
+            <Label className="mb-1 mt-2">{controlItem.label}</Label>
             {renderInputsByComponentsBy(controlItem)}
           </div>
         ))}
