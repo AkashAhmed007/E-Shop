@@ -1,6 +1,10 @@
 function AuthRegister (){
     return (
-        <div>Register</div>
+        <div>
+            <div>
+                <h1 className="text-3xl font-bold tracking-tight">Create new account</h1>
+            </div>
+        </div>
     )
 }
 

@@ -18,11 +18,8 @@ import UnauthPage from "./pages/unauth-page";
 // import NotFound from "./pages/not-found";
 
 function App() {
-  const isAuthenticated = true;
-  const user = {
-    name: "akash",
-    role: "admin",
-  };
+  const isAuthenticated = false;
+  const user = null;
   return (
     <div className="flex flex-col bg-white overflow-hidden">
       <h1>Header Element</h1>
